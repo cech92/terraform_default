@@ -3,7 +3,7 @@ variable "AWS_SECRET_KEY" {}
 variable "AWS_REGION" {
     default = "eu-west-1"
 }
-
+variable "PUBLIC_KEY" {}
 variable "AMIS" {
     type = map(string)
     default = {
